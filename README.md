@@ -70,17 +70,17 @@
       Reemplazar el valor del label quitando los [[]] con el nombre del repositorio, luego reemplazar el valor de value quitando los [[]] por el id del repositorio, por ejemplo:
       
    	```
-       	{
-	label:"[[Nombre del repositorio]]",
-	value: "[[id del repositior, por ejemplo opendoar::xxxx]]",
-    	}
+    		{
+		label:"[[Nombre del repositorio]]",
+		value: "[[id del repositior, por ejemplo opendoar::xxxx]]",
+    		}
 	
 	quedaria reemplazado por:
 	
-	{
-	label:"Repositorio Institucional de la Universidad Carlos III de Madrid",
-	value: "opendoar::912",
- 	},
+		{
+		label:"Repositorio Institucional de la Universidad Carlos III de Madrid",
+		value: "opendoar::912",
+ 		},
 	```
     
       El widget posee un selector para cambiar de repositorios en tiempo real y ver las estadistcas, dichos repositorios estan tomados del arreglo repositories_list, por lo tanto agregar tantos objetos {} como repositorios se quiera mostrar.
