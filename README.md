@@ -46,25 +46,17 @@
   	"https://cdn.jsdelivr.net/gh/lareferencia/lrhw@1.0.0/dist/historic-widget.js"
    	);
    	window['lrhw']({
-    		widget_div_id: "lrhw-widget",
-   		repositories_list: [
-   			{
-   			    label:"[[Nombre del repositorio]]",
-   			    value: "[[id del repositior, por ejemplo opendoar::xxxx]]",
-   			},
-   			{
-   			    label:"[[Nombre del repositorio]]",
-   			    value: "[[id del repositior, por ejemplo opendoar::xxxx]]",
-   			},
-   		],
-    		default_repository:
-   			{
-   			    label:"[[Nombre del repositorio]]",
- 			    value: "[[id del repositorio, por ejemplo opendoar::xxxx]]",
-			},
-   		scope_labels: { N: "Nombre Nodo Nacional" },
-   		});
-   </script>
+   	widget_div_id: "lrhw-widget",
+   	repositories_list: [
+	       { label:"[[Nombre del repositorio]]", value: "[[id del repositior, por ejemplo opendoar::xxxx]]" },
+	       { label:"[[Nombre del repositorio]]", value: "[[id del repositior, por ejemplo opendoar::xxxx]]" },
+   	],
+   	default_repository:
+   	{ label:"[[Nombre del repositorio]]", value: "[[id del repositorio, por ejemplo opendoar::xxxx]]" },
+
+   	scope_labels: { N: "Nombre Nodo Nacional" },
+   	});
+   	</script>
    
    ```
 
