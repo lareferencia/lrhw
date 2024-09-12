@@ -70,10 +70,10 @@
       Reemplazar el valor del label quitando los [[]] con el nombre del repositorio, luego reemplazar el valor de value quitando los [[]] por el id del repositorio, por ejemplo:
       
    	```
-    		{
+    	{
 		label:"[[Nombre del repositorio]]",
 		value: "[[id del repositior, por ejemplo opendoar::xxxx]]",
-    		}
+	}
 	
 	quedaria reemplazado por:
 	
