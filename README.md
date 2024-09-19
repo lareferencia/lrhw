@@ -43,7 +43,7 @@
 	"script",
    	"lrhw",
 	"parameters",
-  	"https://cdn.jsdelivr.net/gh/lareferencia/lrhw@1.0.0/dist/historic-widget.js"
+  	"https://cdn.jsdelivr.net/gh/lareferencia/lrhw@1.0.8/dist/assets/chunks/historic-widget.js"
    	);
    	window['lrhw']({
    	widget_div_id: "lrhw-widget",
@@ -60,7 +60,7 @@
    
    ```
 
-3. Dicho script consta de dos partes, la primera es una función para cargar los archivos .js de cdn.jsdeliver ("https://cdn.jsdelivr.net/gh/lareferencia/lrhw@1.0.0/dist/historic-widget.js"), el numero que sigue luego de la @ es la versión del widget, debe ser modificado cuando hayan actualizaciones disponibles.
+3. Dicho script consta de dos partes, la primera es una función para cargar los archivos .js de cdn.jsdeliver ("https://cdn.jsdelivr.net/gh/lareferencia/lrhw@1.0.8/dist/assets/chunks/historic-widget.js"), el numero que sigue luego de la @ es la versión del widget, debe ser modificado cuando hayan actualizaciones disponibles.
 
 4. La segunda parte es un objeto dentro de "window['lrhw]" que debe ser modificado con los repositorios que se quieren mostrar en el widget, a continuacion detallamos como modificarlos.
 
