@@ -90,3 +90,6 @@
 3. scope_labels: Reemplazar por el nombre correcto del Nodo Nacional, en caso contrario el widget mostrara "[[Nombre Nodo Nacional]]"
 ## Notas:
 El widget ocupa el ancho y alto de la pantalla por lo tanto es ideal colocar el div en un lugar con suficiente espacio. Estamos trabajando, igualmente, en su capacidad responsive.
+
+## Instalación DSpace 7
+> Para instalar este widget en Dspace7 consultar la documentación en: https://github.com/lareferencia/lareferencia-widget-embed/edit/main/README.md
